@@ -24,7 +24,7 @@ Run docker as follows with these environment variables:
 On the CLI run:
 
 ```bash
-docker run -p 9315:9315 -e COUCHPOTATO_URL=$COUCHPOTATO_URL -e COUCHPOTATO_API_KEY=$COUCHPOTATO_API_KEY rj170590/couchpotato_exporter
+docker run -p 9316:9316 -e COUCHPOTATO_URL=$COUCHPOTATO_URL -e COUCHPOTATO_API_KEY=$COUCHPOTATO_API_KEY rj170590/couchpotato_exporter
 ```
 
 Once running, configure a Prometheus job:
